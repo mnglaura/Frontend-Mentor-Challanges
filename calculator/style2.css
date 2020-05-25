@@ -1,0 +1,62 @@
+body {
+    background-color: plum;
+}
+
+.container{
+    background: black;
+    margin: 3rem;
+    width: 300px;
+    background-color: rgb(9, 114, 138);
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center{
+    margin:0 auto;
+}
+
+.row {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry{
+    width: 215px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.numeric{
+    height: 60px;
+    width: 50px;
+    margin: 10px 3px;
+    color: blanchedalmond;
+}
+
+.operation{
+    height: 60px;
+    width: 50px;
+    margin: 10px 3px;
+    color: blanchedalmond;
+}
+
+.equals{
+    height: 60px;
+    width: 215px;
+    margin: 10px 3px;
+    color: blanchedalmond;
+}
+
+.btn{
+    font-weight: bold;
+}
+
