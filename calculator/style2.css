@@ -1,7 +1,3 @@
-body {
-    background-color: plum;
-}
-
 .container{
     background: black;
     margin: 3rem;
@@ -51,7 +47,7 @@ body {
 
 .equals{
     height: 60px;
-    width: 215px;
+    width: 115px;
     margin: 10px 3px;
     color: blanchedalmond;
 }

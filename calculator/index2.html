@@ -40,12 +40,15 @@
             <div class="row">
                 <button type="button" class="btn btn-warning numeric" onclick="clearPress()" >AC</button>
                 <button type="button" class="btn btn-primary numeric" onclick="numericPress(0)" >0</button>
-                <button type="button" class="btn btn-primary numeric" onclick="numericPress(.)" >.</button>
+                <button type="button" class="btn btn-primary numeric" onclick="numericPress('.')" >.</button>
                 <button type="button" class="btn btn-primary operation" onclick="operatorPress('/')" >/</button>
             </div>
 
             <div class="row">
+                <button type="button" class="btn btn-warning numeric" onclick="copyValue()" >MC</button>
+                <button type="button" class="btn btn-warning numeric" onclick="pasteValue()" >MP</button>
                 <button type="button" class="btn btn-success equals" onclick="equalPress()" >=</button>
+                
             </div>
        </div>       
 

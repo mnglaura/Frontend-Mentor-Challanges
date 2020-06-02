@@ -1,12 +1,13 @@
-let firstOperand;
-let secondOperand;
-let result;
-let operator;
-let decimal;
+let firstOperand = "";
+let secondOperand = "";
+let result = "";
+let operator = "";
+let decimal = false;
+let cpyValue ="";
 
 
 function numericPress(value){
-    if(!result){
+    if(result){
         firstOperand = value;
         result = "";
     } else {
@@ -67,10 +68,10 @@ function equalPress(){
         default:
             result = firstOperand;
     }
- 
-    secondOperand = result;
- 
+    // secondOperand = result;
     document.getElementById("entry").value = result;
+
+    
 }
 
 
@@ -82,4 +83,19 @@ function clearPress(){
     decimal = "";
 
     document.getElementById("entry").value = "0";
+}
+
+
+function copyValue(){
+
+    cpyValue =  document.getElementById("entry").value;
+}
+
+function pasteValue(){
+
+   
+    if(cpyValue){
+        document.getElementById("entry").value = cpyValue;
+        firstOperand = cpyValue;
+    }
 }
